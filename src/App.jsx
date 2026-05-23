@@ -274,7 +274,7 @@ function Hero() {
             opacity: mounted ? 1 : 0,
           }}>
             {[
-              { number: '151', label: 'Clinically Validated Genes', color: C.teal },
+              { number: 'WGS', label: 'Whole Genome Sequencing', color: C.teal },
               { number: '3', label: 'Partnership Pathways', color: C.blue },
               { number: 'Avg 17%', label: 'Actionable Finding Rate', color: C.amber },
             ].map(s => (
